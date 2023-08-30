@@ -11,7 +11,7 @@ while(flag == false)
 
 while(i<listaSpesa.length)
 {
-    document.getElementById("stampaLista").innerHTML=listaSpesa[i];
+    document.getElementById("stampaLista").innerHTML+=listaSpesa[i]+", ";
     console.log(listaSpesa[i]);
     i++;
 }
